@@ -7,3 +7,18 @@
 body{
   font-family: 'Poppins','sans-serif';
 }
+
+
+.responsive-map{
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+}
+
+.responsive-map iframe{
+  margin: 4px;
+  border: 2px solid #fff;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+}
